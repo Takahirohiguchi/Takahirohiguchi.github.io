@@ -4,15 +4,85 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>オリジナルポートフォリオ</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        background-color: #ddd;
+      }
+      
+      page-header {
+        font-size: 10px;
+      }
+      
+      #photo {
+        max-width: 200px;
+        border: 5px solid #fff;
+        border-radius: 100%;
+      }
+      
+      #clean1 {
+        margin: 50px;
+      }
+      
+      #clean2 {
+        margin: 100px 50px;
+      }
+      
+      #clean3 {
+        margin: 50px 20px;
+        text-align: right;
+      }
+
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div id=clean1>
+      <div class="page-header">
+        <h1>★自己紹介</h1>
+      </div>
+        <div class="col-sm-3">
+          <img id="photo" src="ProfilePhoto.jpg" alt="樋口×ベイマックス">
+        </div>
+        <div class="col-sm-9">
+          <p>名前 ： 樋口隆広</p>
+          <p>職業 ： インターネット広告代理店</p>
+          <p>出身 ： 新潟</p>
+          <p>年齢 ： 25歳（1990年1月6日生まれ）※もうすぐ誕生日</p> 
+          <p>趣味 ： バドミントン、読書</p>
+          <p>一言 ： プログラミング初心者で苦戦中です。。。頑張ります！</p>
+        </div>
+    </div>
+    <div id=clean2>
+      <div class="page-header" >
+        <h2>★樋口開発サービス</h2>
+      </div>
+        <div class="col-sm-2">
+          <img src="twitter.png" alt="twiteer">
+        </div>
+        <div class="col-sm-4">
+          <h3>▼サービス概要</h3>
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+        </div>
+        <div class="col-sm-2">
+          <img src="facebook.png" alt="facebook">
+        </div>
+        <div class="col-sm-4">
+          <h3>▼サービス概要</h3>
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+            XXXXXXXXXXXXXXXXXXXXXXXX<br />
+        </div>
+    </div>
+      <div id=clean3 class="col-sm-12">
+        <p>詳しくはこちら：<a href="https://github.com/Takahirohiguchi">https://github.com/Takahirohiguchi</a></p>
+      </div>
   </body>
 </html>
